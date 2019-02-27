@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
-import List from "./List"
-import theme from "./../../utils/theme"
+import List from "./list"
+import theme from "../../utils/theme"
 
 const StyledHeader = styled.header`
   width: 100%;
@@ -19,7 +19,7 @@ const StyledHeaderWrapper = styled.div`
 const StyledLogo = styled.span`
   color: ${theme.colors.logoColor};
   text-transform: uppercase;
-  font: bold 0.72rem ${theme.fonts.logoFont};
+  font: bold 0.72rem ${theme.fonts.secondaryFont};
 `
 const StyledLinksWrapper = styled.nav`
   width: 23%;

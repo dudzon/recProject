@@ -9,12 +9,9 @@ const StyledListItem = styled.li`
 `
 const StyledLink = styled(Link)`
   text-decoration: none;
-  color: ${theme.colors.linkColor};
-  font-family: ${theme.fonts.linkFont};
-
-  font-weight: 700;
+  color: ${theme.colors.primaryColor};
+  font: 700 0.72rem ${theme.fonts.primaryFont};
   text-transform: uppercase;
-  font-size: 0.72rem;
   opacity: 0.5;
 `
 const ListItem = ({ route, text }) => {
