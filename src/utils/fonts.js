@@ -1,4 +1,4 @@
 export const fonts = {
-  logoFont: "Helvetica",
-  linkFont: "Work Sans, sans-serif",
+  primaryFont: "Work Sans, sans-serif",
+  secondaryFont: "Helvetica",
 }
