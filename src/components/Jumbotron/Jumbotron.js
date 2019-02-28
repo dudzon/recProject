@@ -6,7 +6,7 @@ import theme from "./../../utils/theme"
 const StyledSection = styled.section`
   ${theme.flexWrapper()};
   width: 100%;
-  height: 23rem;
+  height: 33.3rem;
   background: url(${image}) no-repeat;
   background-size: cover;
 `
