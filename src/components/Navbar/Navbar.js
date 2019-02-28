@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 
-import List from "./list"
+import List from "./List"
 import theme from "../../utils/theme"
 
 const StyledHeader = styled.header`
